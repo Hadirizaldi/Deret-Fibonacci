@@ -3,13 +3,14 @@ import 'Fibonacci.dart';
 
 class Choice {
   int choice;
-  Fibonacci type = new Fibonacci();
   int input;
+  Fibonacci type = new Fibonacci();
 
   int addValue() {
     stdout.write("Masukkan nilai deret = ");
     input = int.tryParse(stdin.readLineSync());
   }
+
   int chooseWay(int choice){
     this.choice = choice;
 

@@ -21,5 +21,18 @@ class Fibonacci {
     return 0;
   }
 
+  int lookingValue (int input) {
+    if ( input  == 0 || input == 1) {
+      print("Nilainya adalah $input")
+      return input ;
+    }
+    else {
+      int hasil =lookingValue(input - 1) + lookingValue(input - 2);
+      print("Nilainya adalah $hasil");
+    }
+    return 0;
+
+  }
+
 
 }
