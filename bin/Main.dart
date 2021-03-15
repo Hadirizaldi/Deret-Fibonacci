@@ -10,6 +10,6 @@ void main(List<String> argument){
   // proses
   Fibonacci result= new Fibonacci();
 
-  result.fibonnaciProcess(a);
-  
+  result.loopingProcess(a);
+
 }
