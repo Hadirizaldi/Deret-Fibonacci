@@ -1,7 +1,5 @@
 import 'dart:io';
 import 'Choice.dart';
-//import 'Fibonacci.dart';
-
 
 void main(List<String> argument){
   stdout.write("Menampilkan deret Fibonacci yang diminta \n");
@@ -12,8 +10,5 @@ void main(List<String> argument){
   // ChoiceProccess
   Choice way = new Choice();
   way.chooseWay(b);
-
-
-
 
 }

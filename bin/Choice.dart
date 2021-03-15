@@ -21,6 +21,9 @@ class Choice {
         type.loopingProcess(input);
         break;
       case 2 :
+        print("Menampilkan nilai fibonacci yang dicari");
+        addValue();
+        type.lookingValue(input);
         break;
       default :
         print("Tidak Ada Pilihan");

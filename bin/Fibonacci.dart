@@ -22,16 +22,18 @@ class Fibonacci {
   }
 
   int lookingValue (int input) {
-    if ( input  == 0 || input == 1) {
-      print("Nilainya adalah $input")
-      return input ;
+    if(input == 0) {
+      print("Nilai dari $input adalah $input");
     }
     else {
-      int hasil =lookingValue(input - 1) + lookingValue(input - 2);
-      print("Nilainya adalah $hasil");
+      for(int n = 1;n< input;n++) {
+        f_n = f_n_1 + f_n_2;
+        f_n_2 = f_n_1;
+        f_n_1 = f_n;
+      }
+      print("Nilai dari $input adalah $f_n");
     }
     return 0;
-
   }
 
 
